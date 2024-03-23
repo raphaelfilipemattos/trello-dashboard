@@ -19,6 +19,7 @@ export default function Card(prop){
       };
   
       fetchcards();
+      setInterval(() =>{ fetchcards()} ,10000);
     }, []);
 
 

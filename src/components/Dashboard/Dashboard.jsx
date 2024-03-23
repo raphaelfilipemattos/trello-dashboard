@@ -19,8 +19,8 @@ const Dashboard = () => {
           console.error('Error fetching boards:', error);
         }
       };
-  
       fetchBoards();
+      setInterval(() =>{ fetchBoards()} ,20000);
     }, []);
   
     return (
