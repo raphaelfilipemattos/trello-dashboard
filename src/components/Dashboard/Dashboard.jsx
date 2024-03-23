@@ -31,8 +31,7 @@ const Dashboard = () => {
             <h2 className={style.titulo_quadro}>{board.name}</h2>
             <ul>              
               {board.lists.map((list) => (                
-                <li key={list.id}>
-                  {console.log(list)}
+                <li key={list.id}>                  
                   <h3 className={style.card_name}>{list.name}</h3>
                    <Card idList={list.id} />
                 </li>
