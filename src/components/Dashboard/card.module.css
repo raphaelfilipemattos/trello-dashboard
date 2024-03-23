@@ -1,0 +1,17 @@
+.card{
+    background-color: white;
+    color: rgba(58, 53, 65, 0.68);
+    list-style: " -> " !important;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.card li{
+    margin: 0.5em;
+    width: 20rem;
+}
